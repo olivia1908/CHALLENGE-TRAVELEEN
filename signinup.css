@@ -1,0 +1,102 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url('https://i.pinimg.com/564x/eb/ae/99/ebae99d6124f3a52bba1353f945c8bf7.jpg');
+  }
+  .container {
+    position: center;
+    overflow: hidden;
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 7px;
+  }
+.logo {
+    max-width: 30%;
+    max-height: 30%;
+    display: center;
+    margin: 0 auto;
+}
+.heading h2 {
+  font-size: 2rem;
+  font-weight: 600;
+      color: #171717;
+      justify-content: center;
+      display: flex;
+      flex-shrink: 0;
+      font-family: 'Inter', 'Source Sans Pro';
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.3999999364;
+      margin-bottom: 0.35rem;
+      white-space: nowrap;
+}
+
+.heading h6 {
+    color: #737373;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 10px;
+  justify-content: center;
+      display: flex;
+      flex-shrink: 0;
+      font-family: 'Inter', 'Source Sans Pro';
+      line-height: 1.5;
+      white-space: nowrap;
+}
+.input {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 380px;;
+	height: 30px;
+  border-radius: 7px;
+  font-size: 1rem;
+  color: #000;
+	font-family: 'Poppins', sans-serif;
+}
+p {
+  color: #737373;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center; 
+    align-items: center; 
+      font-family: 'Inter', 'Source Sans Pro';
+      line-height: 1.5;
+}
+.new {
+  text-align: center;
+  color: #5c5c5c;
+  font-weight: bold;
+}
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 7px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn:hover{
+	background-position: right;
+}
+.login-content{
+		justify-content: center;
+}
